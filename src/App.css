@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  text-align: center;
+  background-color: #F0E6FF;
+}
+
+h1 {
+  margin: 0;
+  opacity: 0.65;
+  margin-bottom: 1rem;
+  font-family: "Arial Black", Gadget, sans-serif;
+  border-bottom: 1px solid #332F2E;
+}
+
+select {
+  margin-left: .5rem;
+  margin-right: .5rem;
+  border-radius: .5em;
+  height: 38px;
+  border: 1px solid #fff;
+}
+
+select:hover {
+  border: 1px solid #0076EB;
+}
+
+.input {
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 10em;
+  height: 2em;
+  margin-left: .5rem;
+}
+
+.input:hover {
+  border: 1px solid #0076EB;
+}
+
+.input[type=number]:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #0076EB;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 38px;
+}
+
+.currencyContainer {
+  display: flex;
+}
